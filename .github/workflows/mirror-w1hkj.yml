@@ -20,81 +20,93 @@ jobs:
       with:
         source_repo: "https://git.code.sf.net/p/fldigi/comptext"
         destination_repo: "w1hkj/comptext"
-        github_token: ${{ secrets.SF_COMPTEXT }}
+        github_token: "${{ secrets.GITHUB_TOKEN }}"
+        destination_ssh_private_key: "${{ secrets.SF_COMPTEXT }}"
     - name: mirror-comptty
       uses: bhcleek/git-mirror@v1.0.0-beta.1
       #continue-on-error: true
       with:
         source_repo: "https://git.code.sf.net/p/fldigi/comptty"
         destination_repo: "w1hkj/comptty"
-        github_token: ${{ secrets.SF_COMPTTY }}
+        github_token: "${{ secrets.GITHUB_TOKEN }}"
+        destination_ssh_private_key: "${{ secrets.SF_COMPTTY }}"
     - name: mirror-linsim
       uses: bhcleek/git-mirror@v1.0.0-beta.1
       #continue-on-error: true
       with:
         source_repo: "https://git.code.sf.net/p/fldigi/linsim"
         destination_repo: "w1hkj/linsim"
-        github_token: ${{ secrets.SF_LINSIM }}
+        github_token: "${{ secrets.GITHUB_TOKEN }}"
+        destination_ssh_private_key: "${{ secrets.SF_LINSIM }}"
     - name: mirror-flnet
       uses: bhcleek/git-mirror@v1.0.0-beta.1
       #continue-on-error: true
       with:
         source_repo: "https://git.code.sf.net/p/fldigi/flnet"
         destination_repo: "w1hkj/flnet"
-        github_token: ${{ secrets.SF_FLNET }}
+        github_token: "${{ secrets.GITHUB_TOKEN }}"
+        destination_ssh_private_key: "${{ secrets.SF_FLNET }}"
     - name: mirror-flmsg
       uses: bhcleek/git-mirror@v1.0.0-beta.1
       #continue-on-error: true
       with:
         source_repo: "https://git.code.sf.net/p/fldigi/flmsg"
         destination_repo: "w1hkj/flmsg"
-        github_token: ${{ secrets.SF_FLMSG }}
+        github_token: "${{ secrets.GITHUB_TOKEN }}"
+        destination_ssh_private_key: "${{ secrets.SF_FLMSG }}"
     - name: mirror-fllog
       uses: bhcleek/git-mirror@v1.0.0-beta.1
       #continue-on-error: true
       with:
         source_repo: "https://git.code.sf.net/p/fldigi/fllog"
         destination_repo: "w1hkj/fllog"
-        github_token: ${{ secrets.SF_FLLOG }}
+        github_token: "${{ secrets.GITHUB_TOKEN }}"
+        destination_ssh_private_key: "${{ secrets.SF_FLLOG }}"
     - name: mirror-flcluster
       uses: bhcleek/git-mirror@v1.0.0-beta.1
       #continue-on-error: true
       with:
         source_repo: "https://git.code.sf.net/p/fldigi/flcluster"
         destination_repo: "w1hkj/flcluster"
-        github_token: ${{ secrets.SF_FLCLUSTER }}
+        github_token: "${{ secrets.GITHUB_TOKEN }}"
+        destination_ssh_private_key: "${{ secrets.SF_FLCLUSTER }}"
     - name: mirror-flamp
       uses: bhcleek/git-mirror@v1.0.0-beta.1
       #continue-on-error: true
       with:
         source_repo: "https://git.code.sf.net/p/fldigi/flamp"
         destination_repo: "w1hkj/flamp"
-        github_token: ${{ secrets.SF_FLAMP }}
+        github_token: "${{ secrets.GITHUB_TOKEN }}"
+        destination_ssh_private_key: "${{ secrets.SF_FLAMP }}"
     - name: mirror-flrig
       uses: bhcleek/git-mirror@v1.0.0-beta.1
       #continue-on-error: true
       with:
         source_repo: "https://git.code.sf.net/p/fldigi/flrig"
         destination_repo: "w1hkj/flrig"
-        github_token: ${{ secrets.SF_FLRIG }}
+        github_token: "${{ secrets.GITHUB_TOKEN }}"
+        destination_ssh_private_key: "${{ secrets.SF_FLRIG }}"
     - name: mirror-fldigi
       uses: bhcleek/git-mirror@v1.0.0-beta.1
       #continue-on-error: true
       with:
         source_repo: "https://git.code.sf.net/p/fldigi/fldigi"
         destination_repo: "w1hkj/fldigi"
-        github_token: ${{ secrets.SF_FLDIGI }}
+        github_token: "${{ secrets.GITHUB_TOKEN }}"
+        destination_ssh_private_key: "${{ secrets.SF_FLDIGI }}"
     - name: mirror-portaudio
       uses: bhcleek/git-mirror@v1.0.0-beta.1
       #continue-on-error: true
       with:
         source_repo: "https://git.code.sf.net/p/fldigi/portaudio"
         destination_repo: "w1hkj/portaudio"
-        github_token: ${{ secrets.SF_PORTAUDIO }}
+        github_token: "${{ secrets.GITHUB_TOKEN }}"
+        destination_ssh_private_key: "${{ secrets.SF_PORTAUDIO }}"
     - name: mirror-nanoIO
       uses: bhcleek/git-mirror@v1.0.0-beta.1
       #continue-on-error: true
       with:
         source_repo: "https://git.code.sf.net/p/fldigi/nanoIO"
         destination_repo: "w1hkj/nanoIO"
-        github_token: ${{ secrets.SF_NANOIO }}
+        github_token: "${{ secrets.GITHUB_TOKEN }}"
+        destination_ssh_private_key: "${{ secrets.SF_NANOIO }}"
