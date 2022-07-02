@@ -1,6 +1,8 @@
 ---
 on:
-  #push
+  push:
+    branch:
+      - main
   schedule:
     - cron: '* */3 * * *'
 jobs:
