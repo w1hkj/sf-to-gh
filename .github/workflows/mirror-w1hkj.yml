@@ -25,14 +25,6 @@ jobs:
 #        destination_repo: "w1hkj/comptty"
 #        github_token: "${{ secrets.GITHUB_TOKEN }}"
 #        destination_ssh_private_key: "${{ secrets.SF_COMPTTY }}"
-    - name: mirror-linsim
-      uses: bhcleek/git-mirror@v1.0.0-beta.11
-      #continue-on-error: true
-      with:
-        source_repo: "https://git.code.sf.net/p/fldigi/linsim"
-        destination_repo: "w1hkj/linsim"
-        github_token: "${{ secrets.GITHUB_TOKEN }}"
-        destination_ssh_private_key: "${{ secrets.SF_LINSIM }}"
     - name: mirror-flnet
       uses: bhcleek/git-mirror@v1.0.0-beta.11
       #continue-on-error: true
