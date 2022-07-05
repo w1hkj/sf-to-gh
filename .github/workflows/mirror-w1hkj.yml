@@ -89,11 +89,3 @@ jobs:
         destination_repo: "w1hkj/fldigi"
         github_token: "${{ secrets.GITHUB_TOKEN }}"
         destination_ssh_private_key: "${{ secrets.SF_FLDIGI }}"
-#    - name: mirror-nanoIO
-#      uses: bhcleek/git-mirror@v1.0.0-beta.12
-      #continue-on-error: true
-#      with:
-#        source_repo: "https://git.code.sf.net/p/fldigi/nanoIO"
-#        destination_repo: "w1hkj/nanoIO"
-#        github_token: "${{ secrets.GITHUB_TOKEN }}"
-#        destination_ssh_private_key: "${{ secrets.SF_NANOIO }}"
