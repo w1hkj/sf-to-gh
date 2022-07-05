@@ -9,22 +9,22 @@ jobs:
   mirror-w1hkj:
     runs-on: ubuntu-latest
     steps:
-#    - name: mirror-comptext
-#      uses: bhcleek/git-mirror@v1.0.0-beta.11
+    - name: mirror-comptext
+      uses: bhcleek/git-mirror@v1.0.0-beta.11
       #continue-on-error: true
-#      with:
-#        source_repo: "https://git.code.sf.net/p/fldigi/comptext"
-#        destination_repo: "w1hkj/comptext"
-#        github_token: "${{ secrets.GITHUB_TOKEN }}"
-#        destination_ssh_private_key: "${{ secrets.SF_COMPTEXT }}"
-#    - name: mirror-comptty
-#      uses: bhcleek/git-mirror@v1.0.0-beta.11
+      with:
+        source_repo: "https://git.code.sf.net/p/fldigi/comptext"
+        destination_repo: "w1hkj/comptext"
+        github_token: "${{ secrets.GITHUB_TOKEN }}"
+        destination_ssh_private_key: "${{ secrets.SF_COMPTEXT }}"
+    - name: mirror-comptty
+      uses: bhcleek/git-mirror@v1.0.0-beta.11
       #continue-on-error: true
-#      with:
-#        source_repo: "https://git.code.sf.net/p/fldigi/comptty"
-#        destination_repo: "w1hkj/comptty"
-#        github_token: "${{ secrets.GITHUB_TOKEN }}"
-#        destination_ssh_private_key: "${{ secrets.SF_COMPTTY }}"
+      with:
+        source_repo: "https://git.code.sf.net/p/fldigi/comptty"
+        destination_repo: "w1hkj/comptty"
+        github_token: "${{ secrets.GITHUB_TOKEN }}"
+        destination_ssh_private_key: "${{ secrets.SF_COMPTTY }}"
     - name: mirror-linsim
       uses: bhcleek/git-mirror@v1.0.0-beta.11
       #continue-on-error: true
