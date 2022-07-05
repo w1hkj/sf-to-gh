@@ -9,13 +9,6 @@ jobs:
   mirror-w1hkj:
     runs-on: ubuntu-latest
     steps:
-    #- uses: actions/checkout@v3
-    #  with:
-    #    repository: bhcleek/git-mirror
-    #    ref: v1.0.0-beta.11
-    #    token: ${{ secrets.SF_SYNC }}
-    #    path: ./
-    #    persist-credentials: false
 #    - name: mirror-comptext
 #      uses: bhcleek/git-mirror@v1.0.0-beta.11
       #continue-on-error: true
